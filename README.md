@@ -10,7 +10,7 @@ Installation:
 
 ```bash
 sudo apt-get update \
- && sudo apt-get --yes install xclip jq curl \
+ && sudo apt-get --yes install gnome-screenshot xclip jq curl \
  && curl https://raw.githubusercontent.com/dargiri/xshot/master/xshot > xshot \
  && chmod +x xshot \
  && sudo mv xshot /usr/local/bin/
